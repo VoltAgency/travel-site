@@ -15,3 +15,12 @@
     @mixin-content;
   }
 }
+
+@define-mixin clearfix{
+  /* para limpiar los floats de los hijos al final y así el padre sabe que altura debe tener */
+  &::after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+}
