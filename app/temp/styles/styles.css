@@ -1410,6 +1410,7 @@ Instead edit gulp/templates/sprite */
 
 .modal{
   position: fixed;
+  display: none;
   z-index: 5;
   background-color: rgba(255,255,255,.94);
   top: 0;
